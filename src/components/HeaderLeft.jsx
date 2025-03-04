@@ -94,7 +94,7 @@ const HeaderLeft = ({darkMode, toggleDarkMode}) => {
                     before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full 
                     before:bg-black dark:before:bg-white before:transform'>
                         <span className='font-semibold md:text-lg'><a href="https://en.hcmus.edu.vn/" target='_blank'>Vietnam National University, Ho Chi Minh City - University of Science</a></span>
-                        <span className='font-light'>Major: Chemistry</span>
+                        <span className='font-light'><a href="https://chemistry.hcmus.edu.vn/" target='_blank'>Major: Chemistry</a></span>
                         <span className='text-sm text-gray-400'>09/2020 - 09/2024</span>
                         <span className='font-light mt-5'>GPA: 3.21/4.0 - Very Good Classification</span>
                     </li>
