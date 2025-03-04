@@ -3,6 +3,7 @@ import image from '/public/avatar.jpg'
 import {BiCurrentLocation, BiEnvelope, BiMoon, BiPhone, BiSun} from 'react-icons/bi'
 import { FaResearchgate, FaSquareFacebook, FaGoogleScholar } from "react-icons/fa6";
 import { SiZalo } from "react-icons/si";
+import { BsCake2 } from "react-icons/bs";
 
 
 const HeaderLeft = ({darkMode, toggleDarkMode}) => {
@@ -17,7 +18,6 @@ const HeaderLeft = ({darkMode, toggleDarkMode}) => {
                     <h1 className='text-4xl font-light'>
                         Loan <span className='font-semibold'>Dang</span>
                     </h1>
-                    <h3 className='text-xl font-light'>Position</h3>
                 </div>
 
                 <button className='absolute right-10 top-10' onClick={toggleDarkMode}>
@@ -33,6 +33,10 @@ const HeaderLeft = ({darkMode, toggleDarkMode}) => {
 
             <div className='flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700'>
                 <ul className='space-y-3'>
+                    <li className='flex itmes-center gap-2'>
+                        <BsCake2 className='text-xl'/>
+                        <span>01/10/2001</span>
+                    </li>
                     <li className='flex itmes-center gap-2'>
                         <BiCurrentLocation className='text-xl'/>
                         <span>District 10, Ho Chi Minh City, Vietnam</span>
